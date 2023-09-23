@@ -1,7 +1,10 @@
 Read Me
+****Parpadeo de leds en cascada con funciones en micropython****
+https://wokwi.com/projects/376624487251683329
 
 Leds Parpadeando en cascada
 https://wokwi.com/projects/376329131059417089
 
 Parpadeo de led por interruptor
-https://wokwi.com/projects/376331708607205377
+https://wokwi.com/projects/376625380363742209
+

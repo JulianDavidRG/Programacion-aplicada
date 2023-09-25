@@ -1,1 +1,19 @@
-tytrytyty
+# Bucle for para imprimir los números impares del 1 al 10
+print("Números impares del 1 al 10:")
+for i in range(1, 11):
+    if i % 2 != 0:
+        print(i)
+
+# Bucle while para contar hacia atrás desde 5 hasta 1
+print("\nContando hacia atrás desde 5 hasta 1 con un bucle while:")
+contador = 5
+while contador >= 1:
+    print(contador)
+    contador -= 1
+
+# Condicional simple para determinar si un año es bisiesto o no
+anio = int(input("\nIngresa un año: "))
+if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0):
+    print(f"{anio} es un año bisiesto.")
+else:
+    print(f"{anio} no es un año bisiesto.")
